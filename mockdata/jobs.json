@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Warehouse Worker",
+    "title_es": "Trabajador de almacén",
+    "location": "Oakland, CA",
+    "description": "Assist with packing, loading, and organizing shipments.",
+    "description_es": "Ayudar con el embalaje, carga y organización de envíos.",
+    "requirements": ["Work permit (EAD)", "Basic English preferred"]
+  },
+  {
+    "id": 2,
+    "title": "Restaurant Server",
+    "title_es": "Mesero/a de restaurante",
+    "location": "San Francisco, CA",
+    "description": "Serve food and drinks in a busy downtown restaurant.",
+    "description_es": "Servir comida y bebidas en un restaurante concurrido en el centro.",
+    "requirements": ["Work permit (EAD)", "Customer service skills"]
+  },
+  {
+    "id": 3,
+    "title": "Construction Helper",
+    "title_es": "Ayudante de construcción",
+    "location": "San Jose, CA",
+    "description": "Support carpenters and builders at construction sites.",
+    "description_es": "Apoyar a carpinteros y constructores en obras de construcción.",
+    "requirements": [
+      "Work permit (EAD)",
+      "Physically fit",
+      "Safety training (can be provided)"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Delivery Driver",
+    "title_es": "Conductor de entregas",
+    "location": "Fremont, CA",
+    "description": "Deliver groceries and small packages in the Bay Area.",
+    "description_es": "Entregar comestibles y paquetes pequeños en el Área de la Bahía.",
+    "requirements": ["Valid driver’s license", "Work permit (EAD)"]
+  },
+  {
+    "id": 5,
+    "title": "Janitor / Cleaner",
+    "title_es": "Conserje / Limpiador",
+    "location": "Berkeley, CA",
+    "description": "Clean offices and schools during evening shifts.",
+    "description_es": "Limpiar oficinas y escuelas durante los turnos nocturnos.",
+    "requirements": ["Work permit (EAD)", "Ability to work evenings"]
+  }
+]
