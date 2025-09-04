@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8000;
 const isProduction = process.env.NODE_ENV === "production";
 const corsOptions = {
   origin: isProduction
-    ? "https://hunter-bot-backend.onrender.com"
+    ? process.env.FRONTEND_URL
     : ["http://localhost:5173", "http://localhost:3000", "http://127.0.0.1:5173"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
