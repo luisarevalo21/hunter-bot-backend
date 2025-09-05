@@ -25,11 +25,7 @@
       "location": "San Jose, CA",
       "description": "Support carpenters and builders at construction sites.",
       "description_es": "Apoyar a carpinteros y constructores en obras de construcción.",
-      "requirements": [
-        "Work permit (EAD)",
-        "Physically fit",
-        "Safety training (can be provided)"
-      ]
+      "requirements": ["Work permit (EAD)", "Physically fit", "Safety training (can be provided)"]
     },
     {
       "id": 4,
@@ -48,6 +44,51 @@
       "description": "Clean offices and schools during evening shifts.",
       "description_es": "Limpiar oficinas y escuelas durante los turnos nocturnos.",
       "requirements": ["Work permit (EAD)", "Ability to work evenings"]
+    },
+    {
+      "id": 6,
+      "title": "Barista",
+      "title_es": "Barista",
+      "location": "San Mateo, CA",
+      "description": "Prepare coffee drinks and assist customers in a busy café.",
+      "description_es": "Preparar bebidas de café y atender a clientes en una cafetería concurrida.",
+      "requirements": ["Work permit (EAD)", "Customer service skills", "Basic English"]
+    },
+    {
+      "id": 7,
+      "title": "Housekeeper",
+      "title_es": "Empleado/a de limpieza",
+      "location": "Palo Alto, CA",
+      "description": "Clean and maintain hotel rooms to ensure guest satisfaction.",
+      "description_es": "Limpiar y mantener habitaciones de hotel para garantizar la satisfacción de los huéspedes.",
+      "requirements": ["Work permit (EAD)", "Attention to detail", "Ability to work weekends"]
+    },
+    {
+      "id": 8,
+      "title": "Landscaping Assistant",
+      "title_es": "Asistente de jardinería",
+      "location": "Santa Clara, CA",
+      "description": "Help with garden maintenance, lawn care, and planting.",
+      "description_es": "Ayudar con el mantenimiento de jardines, cuidado del césped y plantación.",
+      "requirements": ["Work permit (EAD)", "Ability to work outdoors", "Basic understanding of tools"]
+    },
+    {
+      "id": 9,
+      "title": "Factory Assembly Worker",
+      "title_es": "Trabajador de ensamblaje en fábrica",
+      "location": "Hayward, CA",
+      "description": "Assemble products on a manufacturing line with attention to quality.",
+      "description_es": "Ensamblar productos en una línea de fabricación con atención a la calidad.",
+      "requirements": ["Work permit (EAD)", "Ability to follow instructions", "Physically fit"]
+    },
+    {
+      "id": 10,
+      "title": "Security Guard",
+      "title_es": "Guardia de seguridad",
+      "location": "Richmond, CA",
+      "description": "Monitor building premises and ensure safety protocols are followed.",
+      "description_es": "Monitorear las instalaciones y garantizar que se sigan los protocolos de seguridad.",
+      "requirements": ["Work permit (EAD)", "Valid security guard license", "Ability to work night shifts"]
     }
   ],
   "legal_facts": [
@@ -71,6 +112,27 @@
       "topic_es": "Estatus de Protección Temporal (TPS)",
       "description": "Provides temporary legal status and work authorization for immigrants from certain countries in crisis.",
       "description_es": "Proporciona estatus legal temporal y autorización de trabajo para inmigrantes de ciertos países en crisis."
+    },
+    {
+      "id": 4,
+      "topic": "Green Card",
+      "topic_es": "Tarjeta de residencia (Green Card)",
+      "description": "A Green Card allows permanent residence and legal work authorization in the U.S.",
+      "description_es": "Una Green Card permite residencia permanente y autorización legal para trabajar en EE.UU."
+    },
+    {
+      "id": 5,
+      "topic": "Workplace Safety Rights",
+      "topic_es": "Derechos de seguridad en el trabajo",
+      "description": "All workers, regardless of immigration status, have the right to a safe workplace.",
+      "description_es": "Todos los trabajadores, independientemente de su estatus migratorio, tienen derecho a un lugar de trabajo seguro."
+    },
+    {
+      "id": 6,
+      "topic": "Form I-9",
+      "topic_es": "Formulario I-9",
+      "description": "Employers must verify employment eligibility using Form I-9 for all new hires.",
+      "description_es": "Los empleadores deben verificar la elegibilidad de empleo usando el Formulario I-9 para todas las nuevas contrataciones."
     }
   ],
   "resources": [
@@ -89,6 +151,30 @@
       "location": "Oakland, CA",
       "description": "Community organization offering job training, housing, and family services.",
       "description_es": "Organización comunitaria que ofrece capacitación laboral, vivienda y servicios familiares."
+    },
+    {
+      "id": 3,
+      "name": "Catholic Charities East Bay",
+      "name_es": "Catholic Charities East Bay",
+      "location": "Oakland, CA",
+      "description": "Offers legal immigration services, housing support, and job placement assistance.",
+      "description_es": "Ofrece servicios legales de inmigración, apoyo para vivienda y asistencia para colocación laboral."
+    },
+    {
+      "id": 4,
+      "name": "International Institute of the Bay Area",
+      "name_es": "Instituto Internacional del Área de la Bahía",
+      "location": "San Francisco, CA",
+      "description": "Provides immigration legal aid and education services to immigrant families.",
+      "description_es": "Proporciona asistencia legal en inmigración y servicios educativos para familias inmigrantes."
+    },
+    {
+      "id": 5,
+      "name": "Centro Legal de la Raza",
+      "name_es": "Centro Legal de la Raza",
+      "location": "Oakland, CA",
+      "description": "Supports immigrant workers with legal representation and advocacy.",
+      "description_es": "Apoya a trabajadores inmigrantes con representación legal y defensa de sus derechos."
     }
   ]
 }
