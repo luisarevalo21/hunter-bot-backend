@@ -21,7 +21,16 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hunter Bot API is running!");
+});
+
+// Health check endpoint for frontend to check if server is awake
+app.get("/health", (req, res) => {
+  res.status(200).json({
+    status: "ok",
+    message: "Server is awake and ready",
+    timestamp: new Date().toISOString(),
+  });
 });
 
 app.use("/api/openai", chatRouter);
